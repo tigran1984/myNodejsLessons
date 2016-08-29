@@ -17,6 +17,10 @@ https.createServer( function (request, response) {
          response.writeHead(200, {'Content-Type': 'text/html'});    
          
          response.write(data.toString());       
+         request.on('connection',callback);
+         function callback(client){
+             client.write("say hello");
+         }
       }
       response.end();
    });   
