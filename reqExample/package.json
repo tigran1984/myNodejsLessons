@@ -1,0 +1,14 @@
+{
+  "name": "httprequestexample",
+  "version": "1.0.0",
+  "description": "GET http request bitcoins and saved in file ",
+  "main": "httpRequestExample.js",
+  "dependencies": {
+  "command-line-args" : ">= 1.0.0",
+  "command-line-usage" : ">= 1.0.0"},
+  "scripts": {
+    "test": "test-"
+  },
+  "author": "",
+  "license": "MIT"
+}

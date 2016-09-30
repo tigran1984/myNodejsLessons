@@ -1,2 +1,4 @@
 #testing folder 
 xar@
+node_modules
+*.txt
